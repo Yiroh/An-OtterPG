@@ -1,2 +1,6 @@
+Node3D
+CollisionShape3D
+Area3D
+CollisionShape2D
 Sprite2D
 CharacterBody2D
