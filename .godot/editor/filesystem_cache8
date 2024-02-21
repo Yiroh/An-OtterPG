@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708545979
+::res://::1708549603
 icon.svg::CompressedTexture2D::4439462052457281413::1707516294::1707851960::1::::<><>::
 README.md::TextFile::-1::1707516515::0::1::::<><>::
-World.tscn::PackedScene::4903125837961669108::1708540709::0::1::::<><>::uid://dglsadeadhavd::::res://World/Bush.png<>res://Player/Player.gd<>uid://bifwhen0wqwbg::::res://Player/Player.png
+World.tscn::PackedScene::4903125837961669108::1708549169::0::1::::<><>::uid://5tgtnbxnrspe::::res://Player/player.tscn<>uid://clqx5hxb4o74u::::res://World/bush.tscn
 ::res://Effects/::1707851983
 EnemyDeathEffect.png::CompressedTexture2D::2690003098055038928::1707851983::1707851983::1::::<><>::
 GrassEffect.png::CompressedTexture2D::6931571318203904241::1707851983::1707851983::1::::<><>::
@@ -20,9 +20,10 @@ Music.mp3::AudioStreamMP3::5910825511615994987::1707851983::1707851983::1::::<><
 Pause.wav::AudioStreamWAV::3071760215036637741::1707851983::1707851983::1::::<><>::
 Swipe.wav::AudioStreamWAV::8675842351191745449::1707851983::1707851983::1::::<><>::
 Unpause.wav::AudioStreamWAV::6506957541374141209::1707851983::1707851983::1::::<><>::
-::res://Player/::1708540609
+::res://Player/::1708549169
 Player.gd::GDScript::-1::1708540609::0::1::::<>CharacterBody2D<>::
 Player.png::CompressedTexture2D::2959601827307652800::1707851983::1707851983::1::::<><>::
+player.tscn::PackedScene::2145287403920331970::1708549169::0::1::::<><>::res://Player/Player.gd<>uid://bifwhen0wqwbg::::res://Player/Player.png
 ::res://Shadows/::1707851983
 LargeShadow.png::CompressedTexture2D::8378972817580769817::1707851983::1707851983::1::::<><>::
 MediumShadow.png::CompressedTexture2D::8179519374244701141::1707851983::1707851983::1::::<><>::
@@ -30,8 +31,9 @@ SmallShadow.png::CompressedTexture2D::1707779376589049647::1707851983::170785198
 ::res://UI/::1707851983
 HeartUIEmpty.png::CompressedTexture2D::3465276109934023344::1707851983::1707851983::1::::<><>::
 HeartUIFull.png::CompressedTexture2D::7840966630862571847::1707851983::1707851983::1::::<><>::
-::res://World/::1707852242
+::res://World/::1708549103
 Bush.png::CompressedTexture2D::7604196337825504309::1707851983::1707852242::1::::<><>::
+bush.tscn::PackedScene::5579399159399020302::1708549103::0::1::::<><>::uid://dglsadeadhavd::::res://World/Bush.png
 CliffTileset.png::CompressedTexture2D::6929238180156388679::1707851983::1707852204::1::::<><>::
 DirtTileset.png::CompressedTexture2D::54767852670939435::1707851983::1707851983::1::::<><>::
 Grass.png::CompressedTexture2D::7304933373963109180::1707851983::1707851983::1::::<><>::
