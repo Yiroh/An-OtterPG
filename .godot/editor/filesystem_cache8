@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708123879
+::res://::1708538233
 icon.svg::CompressedTexture2D::4439462052457281413::1707516294::1707851960::1::::<><>::
 README.md::TextFile::-1::1707516515::0::1::::<><>::
-World.tscn::PackedScene::4903125837961669108::1707954620::0::1::::<><>::uid://dglsadeadhavd::::res://World/Bush.png<>res://Player/Player.gd<>uid://bifwhen0wqwbg::::res://Player/Player.png
+World.tscn::PackedScene::4903125837961669108::1708124650::0::1::::<><>::uid://dglsadeadhavd::::res://World/Bush.png<>res://Player/Player.gd<>uid://bifwhen0wqwbg::::res://Player/Player.png
 ::res://Effects/::1707851983
 EnemyDeathEffect.png::CompressedTexture2D::2690003098055038928::1707851983::1707851983::1::::<><>::
 GrassEffect.png::CompressedTexture2D::6931571318203904241::1707851983::1707851983::1::::<><>::
@@ -20,8 +20,8 @@ Music.mp3::AudioStreamMP3::5910825511615994987::1707851983::1707851983::1::::<><
 Pause.wav::AudioStreamWAV::3071760215036637741::1707851983::1707851983::1::::<><>::
 Swipe.wav::AudioStreamWAV::8675842351191745449::1707851983::1707851983::1::::<><>::
 Unpause.wav::AudioStreamWAV::6506957541374141209::1707851983::1707851983::1::::<><>::
-::res://Player/::1707854189
-Player.gd::GDScript::-1::1707854189::0::1::::<>CharacterBody2D<>::
+::res://Player/::1708124582
+Player.gd::GDScript::-1::1708124582::0::1::::<>CharacterBody2D<>::
 Player.png::CompressedTexture2D::2959601827307652800::1707851983::1707851983::1::::<><>::
 ::res://Shadows/::1707851983
 LargeShadow.png::CompressedTexture2D::8378972817580769817::1707851983::1707851983::1::::<><>::
