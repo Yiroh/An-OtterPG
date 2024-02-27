@@ -3,19 +3,20 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5ytsm07sqa0v"
-path="res://.godot/imported/CliffTileset.png-beb1369a7815e4e7ee0afe974b2636cf.ctex"
+path.s3tc="res://.godot/imported/CliffTileset.png-beb1369a7815e4e7ee0afe974b2636cf.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://World/CliffTileset.png"
-dest_files=["res://.godot/imported/CliffTileset.png-beb1369a7815e4e7ee0afe974b2636cf.ctex"]
+dest_files=["res://.godot/imported/CliffTileset.png-beb1369a7815e4e7ee0afe974b2636cf.s3tc.ctex"]
 
 [params]
 
-compress/mode=4
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
@@ -27,7 +28,7 @@ roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/normal_map_invert_y=true
+process/normal_map_invert_y=false
 process/hdr_as_srgb=true
 process/hdr_clamp_exposure=false
 process/size_limit=0
