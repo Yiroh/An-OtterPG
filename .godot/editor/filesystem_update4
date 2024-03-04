@@ -1,3 +1,7 @@
+res://World.tscn
 res://Player/player.tscn
 res://Player/Player.gd
-res://World.tscn
+res://World/grass.tscn
+res://World/grass.gd
+res://Effects/grass_effect.tscn
+res://Effects/grass_effect.gd

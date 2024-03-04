@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://cb4d1bysy8kae"]
+[gd_scene load_steps=12 format=3 uid="uid://cb4d1bysy8kae"]
 
 [ext_resource type="PackedScene" uid="uid://5tgtnbxnrspe" path="res://Player/player.tscn" id="2_if6ew"]
 [ext_resource type="PackedScene" uid="uid://clqx5hxb4o74u" path="res://World/bush.tscn" id="2_t77j1"]
 [ext_resource type="Texture2D" uid="uid://bjq6qm6377m5u" path="res://World/GrassBackground.png" id="3_sqld6"]
 [ext_resource type="Texture2D" uid="uid://1savomyrhtb" path="res://World/DirtTileset.png" id="4_s01ne"]
 [ext_resource type="Texture2D" uid="uid://c5ytsm07sqa0v" path="res://World/CliffTileset.png" id="5_lmlso"]
+[ext_resource type="PackedScene" uid="uid://cnykm7obp8l44" path="res://World/grass.tscn" id="6_x1gb5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qhafd"]
 resource_name = "Dirt Path"
@@ -861,18 +862,6 @@ metadata/_edit_lock_ = true
 [node name="Player" parent="." instance=ExtResource("2_if6ew")]
 position = Vector2(72, 16)
 
-[node name="Bush" parent="." instance=ExtResource("2_t77j1")]
-position = Vector2(16, 16)
-
-[node name="Bush2" parent="." instance=ExtResource("2_t77j1")]
-position = Vector2(24, 32)
-
-[node name="Bush3" parent="." instance=ExtResource("2_t77j1")]
-position = Vector2(16, 48)
-
-[node name="Bush4" parent="." instance=ExtResource("2_t77j1")]
-position = Vector2(128, 32)
-
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_repeat = 2
 texture = ExtResource("3_sqld6")
@@ -889,3 +878,39 @@ layer_0/tile_data = PackedInt32Array(4, 131072, 1, 65540, 131072, 1, 131076, 589
 tile_set = SubResource("TileSet_30j0b")
 format = 2
 layer_0/tile_data = PackedInt32Array(5, 0, 2, -65531, 0, 0, -65530, 131072, 0, 6, 131072, 2, 327687, 0, 1, 393223, 0, 2, 393224, 65536, 2, 327688, 65536, 1, 327689, 65536, 1, 393225, 65536, 2, 262152, 393216, 2, 262153, 65536, 1, 196617, 65536, 0, 196618, 131072, 0, 262154, 131072, 1, 327690, 131072, 1, 393226, 131072, 2, 262151, 0, 0, 196616, 0, 0, 196609, 131072, 2, 196608, 327680, 1, 262143, 0, 1, 327679, 0, 2, 262144, 131072, 2, 196607, 0, 0, 131072, 65536, 0, 131073, 131072, 0)
+
+[node name="Bushes" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Bush" parent="Bushes" instance=ExtResource("2_t77j1")]
+position = Vector2(16, 16)
+
+[node name="Bush2" parent="Bushes" instance=ExtResource("2_t77j1")]
+position = Vector2(24, 32)
+
+[node name="Bush3" parent="Bushes" instance=ExtResource("2_t77j1")]
+position = Vector2(16, 48)
+
+[node name="Bush4" parent="Bushes" instance=ExtResource("2_t77j1")]
+position = Vector2(128, 32)
+
+[node name="Grass" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Grass2" parent="Grass" instance=ExtResource("6_x1gb5")]
+position = Vector2(144, 128)
+
+[node name="Grass3" parent="Grass" instance=ExtResource("6_x1gb5")]
+position = Vector2(160, 128)
+
+[node name="Grass4" parent="Grass" instance=ExtResource("6_x1gb5")]
+position = Vector2(160, 32)
+
+[node name="Grass5" parent="Grass" instance=ExtResource("6_x1gb5")]
+position = Vector2(176, 32)
+
+[node name="Grass6" parent="Grass" instance=ExtResource("6_x1gb5")]
+position = Vector2(16, 160)
+
+[node name="Grass7" parent="Grass" instance=ExtResource("6_x1gb5")]
+position = Vector2(288, 64)
