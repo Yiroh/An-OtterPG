@@ -1,7 +1,7 @@
-res://World.tscn
-res://Player/player.tscn
-res://Player/Player.gd
+res://Hitboxes and Hurtboxes/hitbox.tscn
+res://Hitboxes and Hurtboxes/hurtbox.tscn
 res://World/grass.tscn
 res://World/grass.gd
+res://Player/player.tscn
+res://World.tscn
 res://Effects/grass_effect.tscn
-res://Effects/grass_effect.gd

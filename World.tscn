@@ -849,6 +849,7 @@ use_texture_padding = false
 [sub_resource type="TileSet" id="TileSet_30j0b"]
 tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 0
 physics_layer_0/physics_material = SubResource("PhysicsMaterial_3mk8n")
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Terrain 0"
